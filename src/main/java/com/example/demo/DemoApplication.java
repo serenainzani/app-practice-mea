@@ -16,7 +16,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String index(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s!", name);
+		return String.format("Hello Hello %s!", name);
 	}
 
 	@GetMapping("/hello")
